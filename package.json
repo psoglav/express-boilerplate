@@ -1,0 +1,18 @@
+{
+  "name": "ribbet-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "express-slow-down": "^1.4.0",
+    "mongoose": "^6.1.5",
+    "sockjs": "^0.3.24"
+  }
+}
